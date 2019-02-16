@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body>
+    <header>
+      <% include ../partials/header %>
+    </header>
+    <section class="section_container">
+      <form action="/cards" method="POST">
+        <div class="form-group">
+          <input
+            type="text"
+            name="title"
+            class="form-control"
+            placeholder="TITLE"
+            id="usr"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            name="article"
+            rows="5"
+            id="comment"
+            placeholder="Write Something..."
+          ></textarea>
+        </div>
+        <input type="submit" class="btn btn-info" value="Submit Button" />
+      </form>
+    </section>
+
+    <footer class="footer_container">
+      <% include ../partials/footer %>
+    </footer>
+  </body>
+</html>

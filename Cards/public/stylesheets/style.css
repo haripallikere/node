@@ -1,0 +1,40 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* height: 80vh; */
+}
+
+a {
+  color: #00B7FF;
+}
+/* main-container */
+.section_container {
+  display: grid;
+  text-align: center;
+  height: 80vh;
+}
+.nav_custom {
+  align-items: space-between;
+}
+.card-add {
+  height: 200px;
+  width: 200px;
+  padding: 25px;
+  border: 1px solid grey;
+  text-align: center;
+  font-size: 100px;
+}
+.card-add>a {
+  text-decoration: none;
+}
+.card-add:hover {
+  cursor: pointer;
+  /* text-decoration: none; */
+}
+/* footer */
+.footer_container {
+  height: 5vh;
+  padding: 25px;
+  background: rgb(162, 211, 219);
+}
+
